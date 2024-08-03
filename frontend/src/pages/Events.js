@@ -1,7 +1,5 @@
-import { useEffect, useState } from "react";
-
-import EventsList from "../components/EventsList";
 import { useLoaderData } from "react-router-dom";
+import EventsList from "../components/EventsList";
 
 function EventsPage() {
   //get data from params routing loader
